@@ -8,6 +8,10 @@ class JobsController < ApplicationController
   end
   
   def new
+    @job = Job.new
   end
   
+  def create
+  end
+
 end
